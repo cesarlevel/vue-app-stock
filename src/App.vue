@@ -1,14 +1,14 @@
 <template>
   <div id="app">
+    <app-header></app-header>
     <div class="container">
-      <app-header></app-header>
       <router-view></router-view>
     </div>
   </div>
 </template>
 
 <script>
-  import AppHeader from './components/AppHeader';  
+  import AppHeader from './components/AppHeader';
 
   export default {
     name: 'app',

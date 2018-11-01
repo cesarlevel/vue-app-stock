@@ -1,11 +1,11 @@
 import AppHome from './components/AppHome.vue';
-import AppStocks from './components/AppStocks.vue';
-import AppPortafolio from './components/AppPortafolio.vue';
+import AppPortafolio from './components/portafolio/AppPortafolio.vue';
+import AppStocks from './components/stocks/AppStocks.vue';
 
 export const routes = [
     {
         name: 'home',
-        path: '',
+        path: '/',
         component: AppHome,
     },
     {
