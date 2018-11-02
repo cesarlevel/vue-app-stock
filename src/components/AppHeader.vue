@@ -25,6 +25,9 @@
                             <a class="dropdown-item" href="#">Load Data</a>
                         </div>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Funds: $10.000</a>
+                    </li>
                 </ul>
             </div>
         </div>
