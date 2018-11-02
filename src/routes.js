@@ -1,5 +1,5 @@
 import AppHome from './components/AppHome.vue';
-import AppPortafolio from './components/portafolio/AppPortafolio.vue';
+import AppPortfolio from './components/portafolio/AppPortfolio.vue';
 import AppStocks from './components/stocks/AppStocks.vue';
 
 export const routes = [
@@ -14,9 +14,9 @@ export const routes = [
         component: AppStocks,
     },
     {
-        name: 'portafolio',
-        path: '/portafolio',
-        component: AppPortafolio,
+        name: 'portfolio',
+        path: '/portfolio',
+        component: AppPortfolio,
     },
     {
         path: '*',
